@@ -33,8 +33,30 @@ public class SceneBase : MonoBehaviour {
     [SerializeField]
     private string nextScene;
 
-    public void OnNextScene()
+    [SerializeField]
+    private GameObject[] sequenceObject;
+
+	private void Start()
+	{
+        if (sequenceObject != null)
+        {
+            foreach (GameObject obj in sequenceObject) {
+                obj.SetActive(false);
+            }
+        }
+	}
+
+	public void OnNextScene()
     {
+        if (sequenceObject != null) {
+            foreach (GameObject obj in sequenceObject)
+            {
+                if (!obj.activeSelf) {
+                    obj.SetActive(true);
+                    return;
+                }
+            }
+        }
         SceneManager.Instance.PushUIScene("Scenes/" + nextScene);
     }
 

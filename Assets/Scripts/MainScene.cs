@@ -6,6 +6,6 @@ public class MainScene : MonoBehaviour {
 
 	private void Start()
 	{
-        SceneManager.Instance.ReplaceUIScene("Scenes/TitleScene");
+        SceneManager.Instance.ReplaceUIScene("Scenes/Title");
 	}
 }
