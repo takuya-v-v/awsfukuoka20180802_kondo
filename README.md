@@ -1,5 +1,5 @@
 
-Game Tech Night #7 in Fukuoka
+# Game Tech Night #7 in Fukuoka
 https://pages.awscloud.com/GameTechNight7inFukuoka20180802-jp.html
 
 
@@ -7,8 +7,4 @@ https://pages.awscloud.com/GameTechNight7inFukuoka20180802-jp.html
 福岡県Ruby・コンテンツ産業振興センター で開催
 
 20:30 - 21:00    
-[セッション] ゲーム開発とブロックチェーンと、それらを支える AWS　
-スピーカー：
-株式会社リンクトブレイン
-福岡クリエイティブセンター　
-開発顧問 近藤　卓也様
+[セッション] ゲーム開発とブロックチェーンと、それらを支える AWS　
