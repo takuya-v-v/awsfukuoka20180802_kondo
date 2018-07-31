@@ -210,6 +210,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114798755023319336, guid: 7315846ef4edd422a84d4dde0f8ba17e,
+        type: 2}
+      propertyPath: m_Text
+      value: "\u4F7F\u3048\u308BUnity\u30D7\u30E9\u30B0\u30A4\u30F3"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7315846ef4edd422a84d4dde0f8ba17e, type: 2}
   m_IsPrefabAsset: 0
@@ -313,7 +318,7 @@ Prefab:
     - target: {fileID: 114442942093479844, guid: 7b93a67867ef04002b4e30e53e91b929,
         type: 2}
       propertyPath: nextScene
-      value: Matome
+      value: UnityAssets2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b93a67867ef04002b4e30e53e91b929, type: 2}

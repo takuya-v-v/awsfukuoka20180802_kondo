@@ -210,6 +210,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114798755023319336, guid: 7315846ef4edd422a84d4dde0f8ba17e,
+        type: 2}
+      propertyPath: m_Text
+      value: "AWS Blockchain Templates\u3067\n\u958B\u767A\u74B0\u5883\u306E\u69CB\u7BC9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7315846ef4edd422a84d4dde0f8ba17e, type: 2}
   m_IsPrefabAsset: 0

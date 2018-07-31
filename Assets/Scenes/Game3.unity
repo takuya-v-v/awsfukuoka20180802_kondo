@@ -210,6 +210,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114798755023319336, guid: 7315846ef4edd422a84d4dde0f8ba17e,
+        type: 2}
+      propertyPath: m_Text
+      value: "DApps\u958B\u767A\u3057\u3066\u307F\u305F"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7315846ef4edd422a84d4dde0f8ba17e, type: 2}
   m_IsPrefabAsset: 0
@@ -323,12 +328,12 @@ Prefab:
     - target: {fileID: 224139041928090690, guid: 7b93a67867ef04002b4e30e53e91b929,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224180228443730840, guid: 7b93a67867ef04002b4e30e53e91b929,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114442942093479844, guid: 7b93a67867ef04002b4e30e53e91b929,
         type: 2}
