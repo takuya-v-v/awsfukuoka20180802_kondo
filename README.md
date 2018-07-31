@@ -8,3 +8,6 @@ https://pages.awscloud.com/GameTechNight7inFukuoka20180802-jp.html
 
 20:30 - 21:00    
 [セッション] ゲーム開発とブロックチェーンと、それらを支える AWS　
+
+以下WebGLにて動作します
+https://bit.ly/2mXcfiI

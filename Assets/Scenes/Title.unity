@@ -249,7 +249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "2018\u5E74\uFF18\u6708\uFF12\u65E5\n\u30EA\u30F3\u30AF\u30C8\u30D6\u30EC\u30A4\u30F3\u3000\u958B\u767A\u9867\u554F\u3000\u8FD1\u85E4\u5353\u4E5F\n\nhttps://bit.ly/2mXcfiI"
+  m_Text: "2018\u5E74\uFF18\u6708\uFF12\u65E5\n\u30EA\u30F3\u30AF\u30C8\u30D6\u30EC\u30A4\u30F3\u3000\u958B\u767A\u9867\u554F\u3000\u8FD1\u85E4\u5353\u4E5F\n\nGitHub\u3067\u516C\u958B\uFF1Aawsfukuoka20180802_kondo\n"
 --- !u!222 &254646431
 CanvasRenderer:
   m_ObjectHideFlags: 0
