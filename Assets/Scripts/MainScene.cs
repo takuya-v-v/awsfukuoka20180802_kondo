@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class MainScene : MonoBehaviour {
 
-	private void Start()
+    private IEnumerator Start()
 	{
+        ETHManager ethManager = ETHManager.Instance;
         SceneManager.Instance.ReplaceUIScene("Scenes/Title");
+        yield return null;
+        Debug.Log(ETHManager.Instance.Address);
 	}
 }
