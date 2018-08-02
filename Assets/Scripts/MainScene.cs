@@ -9,6 +9,7 @@ public class MainScene : MonoBehaviour {
         ETHManager ethManager = ETHManager.Instance;
         SceneManager.Instance.ReplaceUIScene("Scenes/Title");
         yield return null;
-        Debug.Log(ETHManager.Instance.Address);
+        Debug.Log(ETHManager.Instance.SaveData.PrivateKey);
+        Debug.Log(ETHManager.Instance.SaveData.Address);
 	}
 }
