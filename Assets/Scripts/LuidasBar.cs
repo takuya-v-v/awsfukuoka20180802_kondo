@@ -33,7 +33,7 @@ public class LuidasBar : MonoBehaviour {
     private Button BuyButton;
 
     [SerializeField]
-    private UnityEditor.Animations.AnimatorController[] animators;
+    private RuntimeAnimatorController[] animators;
 
     private static string[] GenName = new string[] { "バスチェル", "セオドリー", "ジェリオット", "ジャレオン", "グレアラン", "アルヴィス", "ジャレイ", "ジャレッド", "モーガイ", "ジェフィー", "リックリス", "ブラッドニー", "ジャイアス", "ジェローズ", "エグバート", "クスタイン", "ジェラルフ", "アーロブ", "ゴードルフ", "エグバート", "チェルシー", "ドレイミー", "チェルード", "オーフィー", "クトリノア", "クトリーナ", "カーラ", "ジョイヴ", "ブライディ", "ティルシー", "ダーリアル", "キャサラ", "ドライリー", "コール", "ワンダ", "レスティナ", "シャローラ", "アメリーン", "イレイティ", "モイラ"};
 

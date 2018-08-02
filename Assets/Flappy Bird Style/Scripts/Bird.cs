@@ -10,7 +10,7 @@ public class Bird : MonoBehaviour
 	private Rigidbody2D rb2d;				//Holds a reference to the Rigidbody2D component of the bird.
 
     [SerializeField]
-    private UnityEditor.Animations.AnimatorController[] animators;
+    private RuntimeAnimatorController[] animators;
 
 	void Start()
 	{

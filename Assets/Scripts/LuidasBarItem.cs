@@ -14,7 +14,7 @@ public class LuidasBarItem : MonoBehaviour {
     [SerializeField]
     private Animator Animator;
 
-    public void Load (string name, string score, UnityEditor.Animations.AnimatorController controller) {
+    public void Load (string name, string score, RuntimeAnimatorController controller) {
         Name.text = name;
         Score.text = score;
         Animator.runtimeAnimatorController = controller;
