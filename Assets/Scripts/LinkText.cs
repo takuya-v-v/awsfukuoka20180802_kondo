@@ -7,7 +7,13 @@ public class LinkText : MonoBehaviour {
     [SerializeField]
     private string linkURL;
 
-    public void OnClick() {
-        Application.OpenURL(linkURL);
+    public void OnClick()
+    {
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            Application.ExternalEval("window.open(\"" + linkURL + "\")");
+        } else {
+            Application.OpenURL(linkURL);
+        }
     }
 }

@@ -149,7 +149,7 @@ public class ETHManager : SingletonMonoBehaviour<ETHManager> {
         //callInputGetCountTopAdventures.Data = getCountTopAdventures.GetData();
         yield return ethCallGetCountTopAdventures.SendRequest(callInputGetCountTopAdventures, BlockParameter.CreateLatest());
         string retCount = ethCallGetCountTopAdventures.Result;
-        int count = int.Parse(retCount.Substring(2));
+        int count = int.Parse(retCount.Substring(2), System.Globalization.NumberStyles.HexNumber);
         Debug.Log("_GetAdventureAndTop100 getCountTopAdventures:" + count.ToString());
         List<AdventureModel> list = new List<AdventureModel>();
         for (int i = 0; i < count; i++)
